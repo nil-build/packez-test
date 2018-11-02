@@ -1,0 +1,53 @@
+{
+    "name": "packez-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "start": "packez src -w -c -m css --mode  production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nil-build/packez-test.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nil-build/packez-test/issues"
+    },
+    "homepage": "https://github.com/nil-build/packez-test#readme",
+    "devDependencies": {
+        "@babel/runtime": "^7.1.2",
+        "@babel/runtime-corejs2": "^7.1.2",
+        "autoprefixer": "^9.3.1",
+        "chalk": "^2.4.1",
+        "css-loader": "^1.0.1",
+        "extract-loader": "^3.0.0",
+        "file-loader": "^2.0.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.4.4",
+        "object.omit": "^3.0.0",
+        "opn": "^5.4.0",
+        "packez": "^1.0.5",
+        "postcss-flexbugs-fixes": "^4.1.0",
+        "postcss-loader": "^3.0.0",
+        "precss": "^3.1.2",
+        "raf": "^3.4.0",
+        "raw-loader": "^0.5.1",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.23.1",
+        "webpack-dev-server": "^3.1.10",
+        "webpack-manifest-plugin": "^2.0.4",
+        "webpack-merge": "^4.1.4",
+        "whatwg-fetch": "^3.0.0"
+    },
+    "dependencies": {
+        "jquery": "^3.3.1",
+        "react": "^16.6.0",
+        "react-dom": "^16.6.0",
+        "warning": "^4.0.2"
+    }
+}
